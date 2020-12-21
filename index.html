@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>
+        <!-- ادخال المستخدم للرقم -->
+        <h1 class="text-faded">Guess A Number From 1 to 10:</h1>
+        <input placeholder="Add Your Answer" id="answer">
+        <p id="warning-msg" class="text-info"></p>
+        <!-- انتهاء -->
+        
+        <!-- تخمين الكومبيوتر -->
+        <h1 class="text-inverse">Computer Answer:</h1>
+        <input placeholder="Computer Answer" id="com-answer" disabled><br>
+        <!-- انتهاء -->
+
+        <!-- ازرار اللعب -->
+        <button onclick="play();">Play</button>
+        <button onclick="reset();">Reset</button>
+        <p id="label"></p>
+        <!-- انتهاء -->
+        <script src="main.js"></script>
+        <script></script>
+    </body>
+</html>
+<!--
+    // الالوان المستخدمة فى المشروع
+    Primary : #0275d8
+    success : #5cb85c
+    info    : #5bc0de
+    warning : #f0ad4e
+    danger  : #d9534f
+    inverse : #292b2c
+    faded   : #f7f7f7
+-->
